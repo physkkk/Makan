@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="../CSS/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
-   
+<body di="rtl">
+   <!-- header-navbar-logo -->
+<header>
+  <img src="../IMG/logo.png">
+  
+
+
+  <nav>
+    <a href="./home.html">الرئيسية</a>
+    <a href="">عن الشركة</a>
+    <a href="./form.html">انضم لنا</a>
+    <a hef="">الرخصة</a>
+    <a href="./services.html">خدماتنا</a>
+  </nav>
+
+  <button id="button"class="button">
+    <span class="button-content">عميل نخدمك</span>
+</button>
+
+</header>
+
+<div class="bg"  data-aos="fade-up">
+  <img id="bg" src="../IMG/bg2.jpg">
+  <img id="bg" src="../IMG/bg3.png">
+  <img id="bg" src="../IMG/bg4.png">
+</div>
+<div id="test" data-aos="fade-left">
+
+</div>
+
+<div id="who" data-aos="zoom-out-up">
+<div id="points" data-aos="flip-up">
+<p id="point">الإبداع</p>
+</div>
+</div>
+
 
     <!--footer here -->
     <footer  class="footer">
@@ -26,21 +61,26 @@
          </a></li>
     </ul>
     <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="#">Contact
-       <h6> sct@gmail.com</h6>
+      <li class="menu__item"><a class="menu__link" href="#">التواصل
+       <h6> Makan@gmail.com</h6>
       </a></li>
-      <li class="menu__item"><a class="menu__link" href="#"> Working Hours 
-       <h6> 8AM-11PM</h6>
+      <li class="menu__item"><a class="menu__link" href="#"> ساعات العمل 
+       <h6>٨ص - ٧م</h6>
       </a></li>
-      <li class="menu__item"><a class="menu__link" href="#"> Location 
-       <h6>Riyadh-Qurtubah </h6>
+      <li class="menu__item"><a class="menu__link" href="#"> الموقع
+       <h6>الرياض</h6>
       </a></li>
 
     </ul>
-    <p>&copy;2023 | All Rights Reserved</p>
+    <p>&copy;2023 | جميع الحقوق محفوظة</p>
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="../JS/home.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

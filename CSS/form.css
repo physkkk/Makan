@@ -219,3 +219,15 @@ a {
 .formbold-form-wrapper{
   width: 500px;
 }
+
+.back-button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  color: #5a3d1e;
+  border: 1px solid rgb(41, 33, 25);
+  background-color: #fff;
+}
+a{
+  color: #5a3d1e;
+}

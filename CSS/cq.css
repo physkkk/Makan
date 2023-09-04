@@ -1,0 +1,83 @@
+body{
+   font-family: 'Work Sans', sans-serif;
+   text-align: right;
+   font-family: Lucida Console, Courier, monospace;
+   background-color: #F7EFE5;
+}
+
+.MAIN{
+    display: flex;
+    text-align: left;
+    justify-content: right;
+
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+    text-align: center;
+    color: rgb(91, 75, 65);
+    font-family: Lucida Console, Courier, monospace;
+   
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #d6c2ac;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.IMAGE{
+    text-align: left;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 100%;
+    margin-left: 3px;
+    
+}

@@ -1,0 +1,446 @@
+/* header - nav - logo */
+*{
+    margin:0 ;
+    padding: 0;
+    font-weight: 700;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #5b3c1ca1;
+    padding: 1%;
+    font-family: 'sitefont', 'Tajawal', sans-serif;
+  }
+  
+  header h5{
+    font-size:medium;
+    color: #e8e5e1;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  header p{
+    font-size:smaller;
+    color: #f4f1eb;
+    letter-spacing: 2px;
+  }
+  
+  header img{
+    margin-right: -70px;
+    margin-top:35px;
+    width: 210px;
+    height: 150px;
+  }
+  .logo{
+    display: flex;
+    text-align: right;
+  }
+  nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 30%;
+  }
+  
+  nav :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  @import url( http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+  
+   nav a{
+     text-decoration: none;
+     color: #e7e2dbc9;
+     font-family:"Droid Arabic Kufi";
+  }
+  
+  
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #d3caba;
+    background-size: 400%;
+    color: #523f34;
+    border: none;
+    font-weight: 700;
+  
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgb(203, 177, 160) 10.8%,
+      rgb(176, 151, 113) 94.3%
+    );
+    
+    transition: all 0.475s;
+  }
+  
+  /*form  */
+  body{
+    direction: ltr;
+  }
+
+  @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+body.menu-active .container {
+  transform: scale(0.9);
+}
+
+.container .inner {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.nav {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  padding: 0 25px;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.nav a {
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  font-size: 30px;
+  padding: 0 25px;
+  color: #cdc9c9;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  
+  transition: all 0.32s ease;
+}
+
+body:not(.menu-active) .nav a.menu-activator:hover {
+  transform: rotate(90deg);
+}
+
+body.menu-active .nav a.menu-activator {
+  transform: rotate(90deg);
+}
+
+.nav a.white {
+  color: #FAFAFA;
+}
+
+body.menu-active .nav a.white {
+  color: #212121;
+  transition: all 0.15s ease;
+}
+
+.nav a.link {
+  float: right;
+  position: relative;
+  text-align: center;
+}
+
+.nav a.link i {
+  position: absolute;
+  display: block;
+  transform: translateX(-50%);
+  
+  transition: all 0.32s ease;
+}
+
+.nav a.link i.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav a.link:hover i {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav a.link:hover i.hidden {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav i.ion-cube {
+  display: inline-block;
+  position: absolute;
+  height: 75px;
+  line-height: 75px;
+  font-size: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .inner .panel {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 60%;
+  float: left;
+  transform: skew(-20deg);
+}
+
+.container .inner .panel.panel-left {
+  margin-left: -10%;
+}
+
+.container .inner .panel .panel-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) skew(20deg);
+}
+
+.container .inner .panel.panel-left .panel-content .image-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  opacity: 0.95;
+  background-image: url('../IMG/Screenshot_1445-02-19_at_12.45.19_AM-removebg-preview.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 1%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.container .inner .panel.panel-right {
+  margin-right: -10%;
+  background: #7e623cd1;
+}
+
+.container .inner .panel.panel-right .panel-content .form {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  width: 300px;
+  min-height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-25%);
+}
+
+.container .inner .panel.panel-right .panel-content .form h1 {
+  display: block;
+  margin: 0 0 45px 0;
+  color: #fdfbfb;
+  font-weight: 400;
+  font-size: 25px;
+ 
+}
+
+.group { 
+  position: relative; 
+  margin-bottom: 25px; 
+}
+
+input {
+  font-size: 13px;
+  height: 25px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ebe9e9;
+  color: #f5f3f3;
+  background: rgba(0,0,0,0);
+  opacity: 1.5;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  opacity: 1;
+}
+
+label {
+  color: #edecec; 
+  font-size: 13px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 15px;
+  opacity: 1.5;
+  transition: 0.2s ease all; 
+  -moz-transition: 0.2s ease all; 
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top: -10px;
+  font-size: 12px;
+  color: #faf8f8;
+  opacity: 1;
+}
+
+.highlight {
+  position: absolute;
+  height: 60%; 
+  width: 100px; 
+  top: 25%; 
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#f9f8f8; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#B1B1B1; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#B1B1B1; }
+  to 	{ width:0; background:transparent; }
+}
+
+a.send-btn {
+  float: right;
+  color: #f4f1f1;
+  transition: 0.2s ease;
+}
+
+a.send-btn:hover {
+  color: #FAFAFA;
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+  transition: all 0.33s ease;
+}
+
+.menu::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(240,240,240,0.0);
+  
+  transition: all 0.45s ease;
+}
+
+body.menu-active .menu {
+  left: 0;
+}
+
+body.menu-active .menu::before {
+  background: rgba(240,240,240,0.9);
+}
+
+
+/* form message */
+
+.form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: flex-end;
+    padding: 8px;
+    width: 140px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(98, 59, 16);
+    color: #fff;
+    cursor: pointer;
+  }
+      

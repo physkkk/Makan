@@ -126,6 +126,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   background: #fff;
+ margin-bottom:   10%;
 }
 
 .container {
@@ -134,7 +135,7 @@ body {
   margin: 0;
   padding: 0;
   transition: all 0.3s ease;
-}
+  }
 
 body.menu-active .container {
   transform: scale(0.9);

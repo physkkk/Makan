@@ -23,7 +23,7 @@ body {
   margin-bottom: 50px;
 }
 #Image{
-  width: 500px;
+  width: 800px;
   height: 800px;
 }
 
@@ -211,4 +211,11 @@ a {
     
   }
 
+.all{
+  display: flex;
+  width: 100%;
+}
 
+.formbold-form-wrapper{
+  width: 500px;
+}

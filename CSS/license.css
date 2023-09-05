@@ -1,4 +1,14 @@
 /* header - nav - logo */
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+body{
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header{
+  font-family: 'Almarai', sans-serif;
+}
 *{
     margin:0 ;
     padding: 0;
@@ -18,14 +28,14 @@
     background-color: #866d54;
     opacity: 0.8;
     padding: 1%;
-    font-family: 'sitefont', 'Tajawal', sans-serif;
+    
   }
   
   header h5{
     font-size:medium;
     color: #e8e5e1;
     letter-spacing: 2px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
   }
   
   header p{
@@ -62,7 +72,8 @@
    nav a{
      text-decoration: none;
      color: #dad8d8;
-     font-family:"Droid Arabic Kufi";
+      font-family: 'Almarai', sans-serif;
+   
   }
   
   .button a{

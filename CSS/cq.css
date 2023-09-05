@@ -1,3 +1,137 @@
+/* header - nav - logo */
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+body{
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header{
+  font-family: 'Almarai', sans-serif;
+}
+*{
+  margin:0 ;
+  padding: 0;
+  font-weight: 700;
+}
+body{
+  direction: ltr;
+}
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #866d54;
+  opacity: 0.8;
+  padding: 1%;
+}
+  
+header h5{
+  font-size:medium;
+  color: #e8e5e1;
+  letter-spacing: 2px;
+
+}
+
+header p{
+  font-size:smaller;
+  color: #f4f1eb;
+  letter-spacing: 2px;
+}
+
+header img{
+  margin-right: -70px;
+  margin-top:35px;
+  width: 210px;
+  height: 150px;
+}
+.logo{
+  display: flex;
+  text-align: right;
+}
+nav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 30%;
+}
+
+nav :hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+ nav a{
+   text-decoration: none;
+   color: #f4f1eb;
+   font-family: 'Almarai', sans-serif;
+}
+
+.button a{
+  text-decoration: none;
+  color: #523f34;
+}
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #d3caba;
+  background-size: 400%;
+  color: #523f34;
+  border: none;
+  font-weight: 700;
+  font-family: 'Almarai', sans-serif;
+
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  color: #fff;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(203, 177, 160) 10.8%,
+    rgb(176, 151, 113) 94.3%
+  );
+  
+  transition: all 0.475s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+body{
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header{
+  font-family: 'Almarai', sans-serif;
+  margin-bottom: 20%;
+}
+
 body{
    font-family: 'Work Sans', sans-serif;
    text-align: center;
@@ -8,6 +142,7 @@ body{
 }
 
 .MAIN{
+    margin-top: 20%;
     display: flex;
     text-align: left;
     justify-content: center;
@@ -18,6 +153,7 @@ body{
     margin: auto;
 }
 .faq-heading{
+    margin-top: 20%;
     border-bottom: #777;
     padding: 20px 60px;
     text-align: center;
@@ -47,6 +183,7 @@ flex-direction: column;
     outline: none;
     transition: 0.4s;
     margin: auto;
+   
 }
 .faq-body{
     margin: auto;

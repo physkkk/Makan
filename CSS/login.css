@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
+  
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+body{
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header{
+  font-family: 'Almarai', sans-serif;
+}
  body{
     /* display: grid;
     height: 100%;
@@ -55,13 +65,11 @@ body{
 
   h1{
     color: #763b01;
-    font-family: Lucida Console, Courier, monospace;
     font-size: larger;
 }
 
  h2{
   color: #763b01;
-  font-family: Lucida Console, Courier, monospace;
   font-size: larger;
   
  }

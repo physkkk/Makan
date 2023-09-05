@@ -264,3 +264,7 @@ a{
   font-weight: 600;
   color: white;
 }
+.Image {
+  width: 30px;
+  height: 10px;
+}

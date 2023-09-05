@@ -1,15 +1,21 @@
 body{
    font-family: 'Work Sans', sans-serif;
-   text-align: right;
+   text-align: center;
    font-family: Lucida Console, Courier, monospace;
-   background-color: #F7EFE5;
+   background-color: #7c542973;
+   
+   
 }
 
 .MAIN{
     display: flex;
     text-align: left;
-    justify-content: right;
-
+    justify-content: center;
+    width: 800px;
+    background-color: #fcf9f6;
+    border: 1px solid rgba(130, 127, 127, 0.867);
+    border-radius: 20px;
+    margin: auto;
 }
 .faq-heading{
     border-bottom: #777;
@@ -17,6 +23,7 @@ body{
     text-align: center;
     color: rgb(91, 75, 65);
     font-family: Lucida Console, Courier, monospace;
+    justify-content: center;
    
 }
 .faq-container{
@@ -73,11 +80,3 @@ flex-direction: column;
     /* Unicode character for "minus" sign (-) */
 }
 
-.IMAGE{
-    text-align: left;
-    width: 500px;
-    height: 200px;
-    margin-bottom: 100%;
-    margin-left: 3px;
-    
-}

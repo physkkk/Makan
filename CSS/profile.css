@@ -4,10 +4,182 @@ body{
   font-family: 'Almarai', sans-serif;
 
 }
-
+ /* header - nav - logo */
+*{
+  margin:0 ;
+  padding: 0;
+  font-weight: 700;
+}
+body{
+  direction: ltr;
+}
 header{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #866d54;
+  opacity: 0.8;
+  padding: 1%;
+  font-family: 'Almarai', sans-serif;
+ 
+}
+  
+header h5{
+  font-size:medium;
+  color: #e8e5e1;
+  letter-spacing: 2px;
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header p{
+  font-size:smaller;
+  color: #f4f1eb;
+  letter-spacing: 2px;
   font-family: 'Almarai', sans-serif;
 }
+
+  
+header img{
+  margin-right: -70px;
+  margin-top:35px;
+  width: 210px;
+  height: 150px;
+}
+.logo{
+  display: flex;
+  text-align: right;
+}
+nav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 30%;
+  font-family: 'Almarai', sans-serif;
+}
+
+nav :hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@import url( http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+  
+nav a{
+  text-decoration: none;
+  color: #f4f1eb;
+  font-family: 'Almarai', sans-serif;
+}
+
+.button a{
+ text-decoration: none;
+ color: #523f34;
+}
+.button {
+ position: relative;
+ overflow: hidden;
+ height: 3rem;
+ padding: 0 2rem;
+ border-radius: 1.5rem;
+ background: #d3caba;
+ background-size: 400%;
+ color: #523f34;
+ border: none;
+ font-weight: 700;
+ font-family: 'Almarai', sans-serif;
+
+}
+
+.button:hover::before {
+ transform: scaleX(1);
+}
+
+.button-content {
+ position: relative;
+ z-index: 1;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  color: #fff;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(203, 177, 160) 10.8%,
+    rgb(176, 151, 113) 94.3%
+  );
+  
+  transition: all 0.475s;
+}
+
+/* button */
+.btn {
+  cursor: pointer;
+  width: 6.5em;
+  height: 2.3em;
+  margin: 0.5em;
+  background: rgb(59, 42, 20);
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-family: 'Almarai', sans-serif;
+}
+
+.btn a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Almarai', sans-serif;
+ }
+ 
+ button :hover {
+  cursor: pointer;
+  color: rgb(63, 50, 33);
+ }
+ button:after {
+  cursor: pointer;
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ button:hover:after {
+  cursor: pointer;
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+
+ /* cards design */
+ #type{
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
   .card{
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     gap: 3%;
@@ -33,6 +205,7 @@ header{
     font-size:25px;
   }
 
+
   #ha{
     width: 80%;
   }
@@ -50,7 +223,7 @@ header{
   font-size: 55px;
  color: #432717af;
  text-align: center;
+ font-family: 'Almarai', sans-serif;
 }
 
-/* done */
-/* done 2*/
+/* done 5*/

@@ -263,6 +263,9 @@ body.menu-active .nav a.white {
   top: 50%;
   opacity: 0.95;
   background-image: url('../IMG/Screenshot_1445-02-19_at_12.45.19_AM-removebg-preview.png');
+
+  object-fit: cover;
+  clip-path: polygon(0 10%,100% 80%, 82% 100%, 0% 100%);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -444,4 +447,11 @@ body.menu-active .menu::before {
     color: #fff;
     cursor: pointer;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
       

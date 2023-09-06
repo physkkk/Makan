@@ -146,20 +146,17 @@ gap: 15%;
 
 .bg8{
   display: flex;
-  gap: 15%;
+  gap: 12%;
 }
 
 #bg8 button{
-margin-top: 325%;
+margin-top: 322%;
 width: 160px;
 font-size: 20px;
  
 }
 
-#bg8{
-  background-color: #dfd7c6ae;
-  border-radius: 20px;
-}
+
 h1{
   
   text-align: center;

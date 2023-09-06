@@ -66,21 +66,21 @@ header{
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: #866d54;
+  background-color: #fcfaf8d5;
   opacity: 0.8;
   padding: 1%;
 }
   
 header h5{
   font-size:medium;
-  color: #e8e5e1;
+  color: #51412c;
   letter-spacing: 2px;
  
 }
 
 header p{
   font-size:smaller;
-  color: #f4f1eb;
+  color: #51412c;
   letter-spacing: 2px;
 }
 
@@ -93,20 +93,21 @@ header img{
 .logo{
   display: flex;
   text-align: right;
+ 
 }
 .card{
-  background-color: rgb(230, 224, 217);
+  background-color: rgba(230, 226, 221, 0.858);
   padding: 2%;
   width: 320px;
   height: 450px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 3px solid rgb(141, 138, 138);
+  border: 3px solid rgba(241, 239, 239, 0.906);
   padding: 1%;
   background-size: cover;
   border-radius: 10px;
-  flex-direction: row;
   background-image: url(../IMG/Screenshot_1445-02-19_at_1.18.50_AM-removebg-preview.png);
   background-size: cover;
 }
@@ -127,7 +128,7 @@ nav :hover{
 
  nav a{
    text-decoration: none;
-   color: #f4f1eb;
+   color:  #51412c;
 }
 
 .button a{
@@ -182,27 +183,33 @@ nav :hover{
 
 
 .all{
+  
   width: 90%;
   display: flex;
   justify-content: center;
   gap: 5%;
   align-items: center;
  margin: auto;
+ margin-top: 10%;
+
 
 }
 
 #imgg{
   width: 200px;
   height: 180px;
+ 
 }
 
 .card p{
   color: rgb(87, 61, 15);
-
- margin-bottom: 55%;
+font-size: 15px;
   letter-spacing: 2px;
-  width: 340px;
-margin-left: 10px;
+  margin-bottom: 100px;
+  width: 320px;
+  text-align: right;
+  height: 200px;
+margin-left: 80px;
 
 
 }
@@ -217,14 +224,22 @@ h1{
   text-align: center;
   font-size: 45px;
   color: rgb(87, 61, 15);
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 body{
   background-color: #A4907C;
 }
 
+#butto{
+  background-color: #51412c;
 
+  
+}
+
+#butto a{
+color: #fff;
+}
 h3{
 text-align: right;
 font-size: 40px;

@@ -121,11 +121,18 @@ nav :hover{
   transition: all 0.475s;
 }
 
+#btns{
+  display: flex;
+width: 400px;
+gap: 15%;
+
+}
 
 /* background */
 #bg{
   width: 95%;
   border-radius: 10px;
+  
 
 }
 .bg{
@@ -137,6 +144,22 @@ nav :hover{
   background-color: #4b3b1a9f;
 }
 
+.bg8{
+  display: flex;
+  gap: 15%;
+}
+
+#bg8 button{
+margin-top: 325%;
+width: 160px;
+font-size: 20px;
+ 
+}
+
+#bg8{
+  background-color: #dfd7c6ae;
+  border-radius: 20px;
+}
 h1{
   
   text-align: center;
